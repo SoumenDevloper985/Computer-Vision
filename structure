@@ -1,0 +1,21 @@
+CVISION/
+├── EncodeGenerator.py
+├── AddDatatoDatabase.py
+├── main.py
+├── deepface_module.py
+├── serviceAccountKey.json
+├── EncodeFile.p          ← (generated after running EncodeGenerator.py)
+│
+├── images/               ← store face images like 101_John.jpeg
+│   ├── 101_John.jpeg
+│   ├── 102_Alice.jpeg
+│   ├── 103_Ravi.jpeg
+│
+├── Resources/
+│   ├── background.png
+│   └── Modes/
+│       ├── 1.png
+│       ├── 2.png
+│       └── 3.png
+│
+├── requirements.txt
